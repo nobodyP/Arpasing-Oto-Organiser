@@ -5,7 +5,7 @@
 so far made entirely by my friend psychic digit.
 
 ## usage
-- download either the aorta_nogui or aorta_gui zip file and extract it
+- download either the aorta_nogui or aorta_gui zip file and extract it (look under the releases tab)
 
   - If using the nogui version, follow these instructions
     - create a new folder called "oto_split" in the same directory that the .exe file is in 
