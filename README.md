@@ -4,6 +4,8 @@
 
 so far made entirely by my friend psychic digit.
 
+this program is still a work-in-progress, you may encounter bugs when using the program
+
 ## usage
 - download either the aorta_nogui or aorta_gui zip file and extract it (look under the releases tab)
 
