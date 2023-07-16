@@ -1,10 +1,25 @@
-# Arpasing-Oto-Organiser
-seperates different phoneme combinations to make setting values and general otoing easier
+# AORTA : Arpasing Oto Reorderer Tool Application
+
+*seperates different phoneme combinations to make setting values and general otoing easier*
+
 so far made entirely by my friend psychic digit.
 
-to use, download "aorta_nogui_6-17-23.zip" and extract it.
-then place an oto.ini file into the directory and run "aorta_nogui.exe"
-follow the prompt and look into "oto_split" to see the created files. then you are free to edit the parameters as you need, then place back into a singular oto.ini file using cntr c and cntr v.
-the program will not work if you have a suffix or use phonemes in the file names, (i.e ao_er_ey_aa_ih.wav=ao erG4,583,120,1918,110,100) but will work with a prefix and uses numbers (i.e 000.wav=g3- ay,585.699,530.163,4065.301,240,80)
+this program is still a work-in-progress, you may encounter bugs when using the program
 
-there are plans to add a gui at a later time (hence the nogui in the file name)
+## usage
+- download either the aorta_nogui or aorta_gui zip file and extract it (look under the releases tab)
+
+  - If using the nogui version, follow these instructions
+    - create a new folder called "oto_split" in the same directory that the .exe file is in 
+    - place an oto.ini file into the directory and run the .exe file
+    - follow the prompt and look into "oto_split" to see the created files
+
+  - If using the gui version, follow these instructions
+    - Run the .exe file
+    - Specify the path of the oto.ini file and output folder
+    - Click the "Start Program" button
+    - Wait for the status bar to say "Program complete, you may now close the window"
+    - Click the "Exit" button
+    - Check the output folder you selected previously to see the created files
+
+then you are free to edit the parameters as you need, then place back into a singular oto.ini file using ctrl-c and ctrl-v
